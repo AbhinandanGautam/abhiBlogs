@@ -13,6 +13,8 @@ const query = groq`
   } | order(_createdAt desc)
 `;
 
+export const revalidate = 30;
+
 const HomePage = async () => {
   if(previewData()){
     return (
@@ -23,7 +25,6 @@ const HomePage = async () => {
           </p>
         </div>
       }>
-        <p>Inside Preview Mode</p>
         <PreviewBlogList query={query} />
       </PreviewSuspense>
     )
