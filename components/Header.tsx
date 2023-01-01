@@ -12,7 +12,7 @@ function Header() {
         </div>
         <div>
             <Link href="https://www.linkedin.com/in/abhinandan-gautam-4993881ba/"
-            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center">Follow On Instagram</Link>
+            className="px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center">Follow On LinkedIn</Link>
         </div>
     </header>
   )
